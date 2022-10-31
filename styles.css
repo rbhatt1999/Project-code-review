@@ -21,7 +21,6 @@ a {
   text-decoration: none;
 }
 
-
 .container {
   max-width: 1000px;
   width: 100%;
@@ -48,7 +47,7 @@ a {
   position: fixed;
   top: 0;
   min-height: 75px;
-  padding: 0px 20px;
+  padding: 0 20px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -104,6 +103,7 @@ nav {
     text-align: center;
     padding: 0 50px;
   }
+
   nav li {
     padding-bottom: 5px;
   }
@@ -131,6 +131,10 @@ nav > ul {
   height: 200px;
   margin-top: 50px;
   font-family: Arial, sans-serif;
+}
+
+.product > h2 {
+  margin-top: 15px;
 }
 
 #hero > h2 {
@@ -183,7 +187,7 @@ nav > ul {
   }
 }
 
-#features .desc{
+#features .desc {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -248,10 +252,6 @@ nav > ul {
   font-weight: 700;
 }
 
-.product > h2 {
-  margin-top: 15px;
-}
-
 .product > ol {
   margin: 15px 0;
 }
@@ -276,6 +276,7 @@ nav > ul {
   #pricing {
     flex-direction: column;
   }
+
   .product {
     max-width: 300px;
     width: 100%;
